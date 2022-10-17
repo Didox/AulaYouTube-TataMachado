@@ -58,6 +58,11 @@ docker push didox/api-basica-stone
 docker pull didox/api-basica-stone
 ```
 
+# Como entrar dentro do container
+```shell
+docker exec -it api-basica-stone bash
+```
+
 # No servidor ubuntu:
 ```shell
 sudo su -
