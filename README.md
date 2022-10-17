@@ -52,3 +52,8 @@ docker login
 ```shell
 docker push didox/api-basica-stone
 ```
+
+# Como baixar imagem docker no servidor https://hub.docker.com/
+```shell
+docker pull didox/api-basica-stone
+```
