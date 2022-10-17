@@ -57,3 +57,15 @@ docker push didox/api-basica-stone
 ```shell
 docker pull didox/api-basica-stone
 ```
+
+# No servidor ubuntu:
+```shell
+sudo su -
+apt update
+apt install docker.io -y
+docker pull didox/api-basica-stone
+docker run -d -p 80:80 --name api-basica-stone didox/api-basica-stone
+
+# ai só preciso liberar no firewall a porta 80
+```
+
